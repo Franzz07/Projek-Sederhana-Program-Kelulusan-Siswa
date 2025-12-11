@@ -51,5 +51,5 @@ Selamat, Ani dinyatakan LULUS.
 Berikut adalah logika jalannya program ini:
 
 <p align="center">
-  <img src="./flowchart.svg" alt="Flowchart Sistem" width="100%">
+  <img src="./Flowchart.svg" alt="Flowchart Sistem" width="100%">
 </p>
