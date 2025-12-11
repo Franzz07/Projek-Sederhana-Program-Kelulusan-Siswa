@@ -46,6 +46,9 @@ Nama Siswa: Ani
 Absensi > 75%? (y/t): y
 Masukkan Nilai Akhir: 85
 Selamat, Ani dinyatakan LULUS.
+```
+
+Berikut adalah logika jalannya program ini:
 
 <p align="center">
   <img src="./flowchart.svg" alt="Flowchart Sistem" width="100%">
