@@ -1,4 +1,4 @@
-# 🎓 Sistem Penilaian Kelulusan Siswa
+# Sistem Penilaian Kelulusan Siswa
 
 > Program sederhana berbasis CLI (Command Line Interface) untuk menentukan kelulusan siswa.
 
@@ -11,27 +11,7 @@ Program ini dirancang untuk membantu guru atau dosen dalam memproses nilai siswa
 1.  **Cek Absensi Dulu:** Jika absensi di bawah 75%, siswa otomatis gugur (tidak perlu input nilai).
 2.  **Cek Nilai:** Jika absensi aman, baru nilai dicek (Minimal 65).
 
----
-
-##  Cara Menggunakan
-
-Pastikan Anda sudah menginstall [Go](https://go.dev/dl/).
-
-1.  **Clone atau Download** file program ini.
-2.  Buka terminal/CMD di folder tersebut.
-3.  Jalankan perintah:
-
-    ```bash
-    go run ProgramKelulusan.go
-    ```
-
-4.  Ikuti instruksi di layar:
-    * Masukkan jumlah siswa.
-    * Input nama, status kehadiran, dan nilai sesuai permintaan.
-
----
-
-## 📸 Contoh Tampilan
+## Contoh Tampilan
 
 ```text
 Masukkan jumlah siswa: 2
@@ -51,5 +31,5 @@ Selamat, Ani dinyatakan LULUS.
 Berikut adalah logika jalannya program ini:
 
 <p align="center">
-  <img src="./Flowchart.svg" alt="Flowchart Sistem" width="100%">
+  <img src="./Flowchart.svg" alt="Flowchart Sistem" width="90%">
 </p>
