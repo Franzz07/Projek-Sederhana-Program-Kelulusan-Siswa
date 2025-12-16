@@ -30,7 +30,7 @@ Selamat, Ani dinyatakan LULUS.
 
 Berikut adalah logika jalannya program ini:
 <p align="center">
-  <img src="./Flowchart.svg" alt="Flowchart Sistem" width="90%">
+  <img src="./FlowChart.svg" alt="Flowchart Sistem" width="90%">
 </p>
 
 
