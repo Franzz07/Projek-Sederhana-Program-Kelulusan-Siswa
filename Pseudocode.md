@@ -1,16 +1,3 @@
-ProgramKelulusanSiswa
-Kamus
-    jumlah_siswa  : Integer
-    nama_siswa    : String
-    kode_absen    : String   
-    absen         : Boolean
-    nilai_akhir   : Real
-
-Algoritma
-    // input jumlah siswa
-    Output("Masukkan jumlah siswa: ")
-    Input(jumlah_siswa)
-
 For i = 1 to jumlah_siswa Do
     Output("--- Data Siswa Ke-" + i + " ---")
     
@@ -34,22 +21,27 @@ For i = 1 to jumlah_siswa Do
     EndIf
  Endfor
 
-    // cek nilai
+    //Logika Utama
     If (absen == false) Then
         //Jika Absen < 75%
-        Output("Maaf, " + nama_siswa + "dinyatakan TIDAK LULUS (Absensi Kurang)")
+        Output("HASIL: " + nama_siswa + " TIDAK LULUS (Absensi Kurang)")
     Else
         //Jika Absen >= 75%, meminta inputan nilai
+    For
         Output("Masukkan Nilai Akhir: ")
         Input(nilai_akhir)
-
+    
         If (nilai_akhir >= 65) AND (nilai_akhir <= 100) Then
-            Output("Selamat, " + nama_siswa + " dinyatakan LULUS")
+            Output("HASIL: " + nama_siswa + " dinyatakan LULUS")
+            break
         Else if (nilai_akhir >= 0) AND (nilai_akhir <65) Then
             Output("HASIL: " + nama_siswa + " TIDAK LULUS (Nilai Kurang)")
+            break
         Else
             output("Input Anda Invalid")
         EndIf
+        EndFor
     EndIf
+
+    Output("--------------------------------")
 EndFor
-EndProgram
