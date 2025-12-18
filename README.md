@@ -18,12 +18,12 @@ Masukkan jumlah siswa: 2
 
 --- Data Siswa Ke-1 ---
 Nama Siswa: Budi
-Absensi > 75%? (y/t): t
+Absensi > 75%? (T/F): F
 Maaf, Budi TIDAK LULUS karena absensi kurang.
 
 --- Data Siswa Ke-2 ---
 Nama Siswa: Ani
-Absensi > 75%? (y/t): y
+Absensi > 75%? (T/F): T
 Masukkan Nilai Akhir: 85
 Selamat, Ani dinyatakan LULUS.
 ```
