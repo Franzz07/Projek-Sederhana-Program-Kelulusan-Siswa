@@ -7,14 +7,14 @@ For i = 1 to jumlah_siswa Do
 
     //Input Absensi
  For 
-    Output("Apakah absensi > 75%? (y/t): ")
+    Output("Apakah absensi > 75%? (T/F): ")
     Input(kode_absen)
 
     //Cek Absensi
-    If kode_absen == "Y" or kode_absen == "y" Then
+    If kode_absen == "T" or kode_absen == "t" Then
         absen <- true
         break
-    Else if kode_absen == "T" || kode_absen == "t" Then
+    Else if kode_absen == "F" || kode_absen == "f" Then
         absen <- false
         break
     Else Output("Inputan Absen Invalid. Harap Masukkan 'T' atau 'F'.")
