@@ -6,7 +6,7 @@
 
 ## Tentang Program
 
-Program ini dirancang untuk membantu guru atau dosen dalam memproses nilai siswa secara massal. Sistem menggunakan logika **bersarang (nested logic)** untuk efisiensi:
+Program ini dirancang untuk membantu guru atau dosen dalam memproses nilai siswa secara massal.
 
 1.  **Cek Absensi Dulu:** Jika absensi di bawah 75%, siswa otomatis gugur (tidak perlu input nilai).
 2.  **Cek Nilai:** Jika absensi aman, baru nilai dicek (Minimal 65).
