@@ -10,7 +10,6 @@ Algoritma
 output("Masukan Jumlah Siswa: ")
 input(jumlah_siswa)
 
-
 For i = 1 to jumlah_siswa Do
     Output("--- Data Siswa Ke-" + i + " ---")
     
@@ -23,24 +22,24 @@ Input(nama_siswa)
         Output("Apakah absensi > 75%? (T/F): ")
         Input(kode_absen)
         
-//Cek Absensi
-    If kode_absen == "T" or kode_absen == "t" Then
-        absen <- true
-        break
-    Else if kode_absen == "F" || kode_absen == "f" Then
-        absen <- false
-        break
-    Else 
-        Output("Inputan Absen Invalid. Harap Masukkan 'T' atau 'F'.")
-    EndIf
+        //Cek Absensi
+        If kode_absen == "T" or kode_absen == "t" Then
+            absen <- true
+            break
+        Else if kode_absen == "F" || kode_absen == "f" Then
+            absen <- false
+            break
+        Else 
+            Output("Inputan Absen Invalid. Harap Masukkan 'T' atau 'F'.")
+        EndIf
     Endfor
 
-//Cek Nilai
+    //Cek Nilai
     If (absen == false) Then
     //Jika Absen < 75%
         Output("HASIL: " + nama_siswa + " TIDAK LULUS (Absensi Kurang)")
     Else
-//Jika Absen >= 75%, meminta inputan nilai
+    //Jika Absen >= 75%, meminta inputan nilai
         For
             Output("Masukkan Nilai Akhir: ")
             Input(nilai_akhir)
@@ -58,3 +57,4 @@ Input(nama_siswa)
     EndIf
 EndFor
 EndProgram
+
