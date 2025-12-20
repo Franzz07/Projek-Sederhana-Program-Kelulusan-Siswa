@@ -56,16 +56,16 @@ func main() {
 				_, err := fmt.Scan(&nilai_akhir)
 
 				if err != nil {
-					// --- KASUS A: INPUT BUKAN ANGKA ---
+					// untuk input bukan angka
 					fmt.Println("Input Invalid. Harap Masukkan angka (0-100).")
 
-					// Membersihkan buffer input (Wajib!)
+					// Membersihkan buffer 
 					var dummy string
 					fmt.Scanln(&dummy)
-					continue // Ulangi loop
+					continue // loop
 				}
 
-				// --- KASUS B & C: INPUT ADALAH ANGKA, sekarang cek rentangnya ---
+				// cek nilai
 				if nilai_akhir >= 65 && nilai_akhir <= 100 {
 					fmt.Printf("Selamat, %s dinyatakan LULUS,\n", nama_siswa)
 					break
@@ -73,7 +73,6 @@ func main() {
 					fmt.Printf("Maaf, %s dinyatakan TIDAK LULUS karena nilai akhir kurang.\n", nama_siswa)
 					break
 				} else {
-					// Input adalah angka, tapi di luar rentang 0-100 (misal: -5 atau 150)
 					fmt.Println("Inputan Invalid. Nilai harus antara 0 hingga 100.")
 				}
 			}
@@ -82,3 +81,4 @@ func main() {
 	}
 
 }
+
