@@ -7,6 +7,7 @@ Kamus
     nilai_akhir: real
 
 Algoritma
+//Input Jumlah Siswa
 output("Masukan Jumlah Siswa: ")
 input(jumlah_siswa)
 
@@ -57,4 +58,5 @@ Input(nama_siswa)
     EndIf
 EndFor
 EndProgram
+
 
