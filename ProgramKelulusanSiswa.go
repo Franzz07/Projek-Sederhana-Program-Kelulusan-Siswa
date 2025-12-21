@@ -45,11 +45,7 @@ func main() {
 
 			// jika absen lebih dari 75%
 		} else {
-			fmt.Printf("Masukan Nilai Akhir: ")
-			fmt.Scan(&nilai_akhir)
-
 			// cek nilai
-
 			for {
 
 				fmt.Print("Masukkan Nilai Akhir: ")
@@ -81,4 +77,5 @@ func main() {
 	}
 
 }
+
 
